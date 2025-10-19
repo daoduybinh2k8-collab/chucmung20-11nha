@@ -373,7 +373,8 @@
         </span>
     </div>
 
-    <!-- Ảnh động trang trí -->
+    <!-- Ảnh động trang trí --> ![mewmew](https://github.com/user-attachments/assets/caac3799-d164-4826-ad0e-59cfab946e0c)
+
     <img src="./assets/mewmew.gif" alt="GIF" class="center-gif" /> <!-- Thay ảnh động bên dưới -->
 
     <!-- Hiển thị lời chúc -->
@@ -421,8 +422,11 @@
         const popupImage = document.getElementById("popupImage");
         const popupMessage = document.getElementById("popupMessage");
         const centerText = document.getElementById("centerText");
-        //Thay những ảnh rơi từ trên xuống ở đây
-        const letterImages = [
+        //Thay những ảnh rơi từ trên xuống ở đây<img width="254" height="241" alt="t5" src="https://github.com/user-attachments/assets/3d95cb57-1f06-4290-8cf6-b60bd7d228a1" />
+<img width="517" height="535" alt="t2" src="https://github.com/user-attachments/assets/9afb3c6d-ad21-40ea-9921-9cbe090d6013" />
+
+        const letterImages = [<img width="919" height="989" alt="q3" src="https://github.com/user-attachments/assets/6dbbc3c2-9516-46de-bd0f-472db79f0373" />
+
             "./assets/letters.png",
             "./assets/q3.png",
             "./assets/h1.png",
