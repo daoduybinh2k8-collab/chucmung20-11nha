@@ -1,4 +1,5 @@
-[index.html](https://github.com/user-attachments/files/22988707/index.html)
+
+[index.html](https://github.com/user-attachments/files/22988900/index.html)
 <!DOCTYPE html>
 <html lang="en">
 
@@ -373,8 +374,7 @@
         </span>
     </div>
 
-    <!-- Ảnh động trang trí --> ![mewmew](https://github.com/user-attachments/assets/caac3799-d164-4826-ad0e-59cfab946e0c)
-
+    <!-- Ảnh động trang trí -->
     <img src="./assets/mewmew.gif" alt="GIF" class="center-gif" /> <!-- Thay ảnh động bên dưới -->
 
     <!-- Hiển thị lời chúc -->
@@ -422,12 +422,59 @@
         const popupImage = document.getElementById("popupImage");
         const popupMessage = document.getElementById("popupMessage");
         const centerText = document.getElementById("centerText");
-        //Thay những ảnh rơi từ trên xuống ở đây<img width="254" height="241" alt="t5" src="https://github.com/user-attachments/assets/3d95cb57-1f06-4290-8cf6-b60bd7d228a1" />
-<img width="517" height="535" alt="t2" src="https://github.com/user-attachments/assets/9afb3c6d-ad21-40ea-9921-9cbe090d6013" />
+        //Thay những ảnh rơi từ trên xuống ở đây
+        const letterImages = [
+            "<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Hiển thị ảnh - q3.png</title>
+<style>
+:root{--bg:#fff8fb;--card:#fff;--accent:#f6c0d6;--border:#5b4156}
+html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial}
+body{display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,var(--bg),#fff);padding:32px}
+.card{background:var(--card);border-radius:16px;padding:28px;box-shadow:0 10px 30px rgba(91,65,86,0.08);border:2px solid rgba(91,65,86,0.06);text-align:center;max-width:520px;width:100%}
+h1{margin:0 0 10px;font-size:20px;color:var(--border)}
+p{margin:0 0 18px;color:#6b5866}
+.img-wrap{display:inline-block;padding:14px;border-radius:12px;background:linear-gradient(180deg, rgba(246,192,214,0.35), rgba(246,192,214,0.08));}
+img{display:block;max-width:420px;width:100%;height:auto;border-radius:10px;box-shadow:0 6px 18px rgba(91,65,86,0.12)}
+.controls{margin-top:18px;display:flex;gap:12px;justify-content:center}
+.btn{padding:10px 14px;border-radius:10px;border:0;font-weight:600;cursor:pointer}
+.btn--download{background:var(--accent);color:#5b2f4a}
+.btn--full{background:#5b2f4a;color:#fff}
+.note{margin-top:12px;color:#7a666f;font-size:13px}
+@media (max-width:420px){.card{padding:18px}img{max-width:320px}}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Ảnh: q3.png</h1>
+<p>Ví dụ code HTML để hiển thị và tải ảnh này (đặt file ảnh cùng thư mục với file HTML).</p>
 
-        const letterImages = [<img width="919" height="989" alt="q3" src="https://github.com/user-attachments/assets/6dbbc3c2-9516-46de-bd0f-472db79f0373" />
 
-            "./assets/letters.png",
+<div class="img-wrap">
+<!-- Đổi src nếu bạn lưu ảnh với tên khác hoặc ở thư mục khác -->
+<img id="myImage" src="q3.png" alt="Gift image" />
+</div>
+
+
+<div class="controls">
+<!-- link download: attribute `download` gợi trình duyệt tải về thay vì mở -->
+<a class="btn btn--download" href="q3.png" download="gift-q3.png">Tải ảnh (.png)</a>
+<!-- mở ảnh trong tab mới -->
+<button class="btn btn--full" id="openBtn">Mở ảnh trong tab mới</button>
+</div>
+
+
+<div class="note">Lưu ý: đặt <code>q3.png</code> vào cùng thư mục với file HTML rồi mở file bằng trình duyệt (double-click).</div>
+</div>
+
+
+<script>
+document.getElementById('openBtn').addEventListener('click', ()=>{
+const img = document.getElementById('myImage').src;
+window.open(img, '_blank');",
             "./assets/q3.png",
             "./assets/h1.png",
             "./assets/h3.png",
